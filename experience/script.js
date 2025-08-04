@@ -68,5 +68,9 @@ function(){
         document.title = "Experience | Portfolio Swarnim Duwadi";
         $("#favicon").attr("href","/experience/favicon.png");
     }
-
+ else {
+            document.title = "Portfolio | Swarnim Duwadi";
+            $("#favicon").attr("href", "experience/favicon.png");
+        }
 });
+
